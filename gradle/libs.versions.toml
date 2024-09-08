@@ -12,6 +12,8 @@ splashApi = "1.0.1"
 daggerHilt = "2.46.1"
 hiltNavigation = "1.2.0"
 dataStore = "1.0.0"
+retrofit = "2.11.0"
+okhttp3 = "4.12.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,6 +35,10 @@ dagger-hilt = { group = "com.google.dagger" , name = "hilt-android" , version.re
 dagger-hilt-compiler = {group = "com.google.dagger", name = "hilt-android-compiler" , version.ref = "daggerHilt"}
 dagger-hilt-navigation = {group = "androidx.hilt" , name = "hilt-navigation-compose"  , version.ref = "hiltNavigation"}
 data-store = {group = "androidx.datastore", name ="datastore-preferences" , version.ref = "dataStore"}
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit" , version.ref = "retrofit"}
+retrofit-converter = {group = "com.squareup.retrofit2", name = "converter-gson" , version.ref = "retrofit"}
+okhttp3 = {group ="com.squareup.okhttp3" , name = "okhttp" , version.ref = "okhttp3"}
+okhttp3-interceptor = {group ="com.squareup.okhttp3" , name = "logging-interceptor" , version.ref = "okhttp3"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
